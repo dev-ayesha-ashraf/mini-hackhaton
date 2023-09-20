@@ -66,7 +66,6 @@ const teachers = [
     }
 ];
 
-// Initialize teacher cards
 teacherCards.forEach((card, index) => {
     card.addEventListener('click', () => showProfile(index));
 });

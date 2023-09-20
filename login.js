@@ -5,7 +5,7 @@ const database =getDatabase();
 const login = () => {
   let email = document.getElementById("login-email");
   let password = document.getElementById("login-password");
-  if (email.value == "Kauser7098@gmail.com" && password.value == "Delay$$456") {
+  if (email.value == "ayeshaashraf@gmail.com" && password.value == "Strong#2023") {
     location.href="attendence.html"
   }else{
   signInWithEmailAndPassword(auth, email.value, password.value)
